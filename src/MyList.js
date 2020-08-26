@@ -18,7 +18,7 @@ class MyList extends Component {
   }
 
   render() {
-    let todoItems = this.props.theList.map((item, index) => (
+    let todoItems = this.state.toDoItemArray.map((item, index) => (
       <ListItem doThis={item} key={index} />
     ))
     return (
