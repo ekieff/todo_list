@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import MyList from './MyList';
 import './index.css';
-
+var toDos = ["Look at pet pictures", "Scratch Mia's Belly", "Throw Pierre's ball"]
 ReactDOM.render(
-  <MyList />,
+  <MyList theList ={toDos} />,
   document.getElementById('root')
 )
 
